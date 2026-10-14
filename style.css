@@ -1,0 +1,83 @@
+.bnr-settings .bnr-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 6px 0;
+}
+
+.bnr-settings h4 {
+    margin: 4px 0 0;
+}
+
+.bnr-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.bnr-toolbar .menu_button {
+    margin: 0;
+    width: auto;
+    min-height: 40px;
+    padding: 6px 12px;
+}
+
+.bnr-primary {
+    font-weight: bold;
+}
+
+.bnr-count {
+    margin-left: auto;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+.bnr-list {
+    max-height: 260px;
+    overflow-y: auto;
+    border: 1px solid var(--SmartThemeBorderColor, #888);
+    border-radius: 8px;
+    padding: 4px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bnr-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 8px;
+    min-height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+.bnr-row:hover {
+    background: rgba(128, 128, 128, 0.15);
+}
+
+.bnr-row input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.bnr-empty {
+    padding: 10px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.bnr-status {
+    min-height: 1.2em;
+    font-size: 0.9em;
+    opacity: 0.85;
+    padding-top: 6px;
+}
+
+#bnr_patterns {
+    resize: vertical;
+    font-family: monospace;
+}
