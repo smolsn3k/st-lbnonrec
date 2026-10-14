@@ -11,7 +11,7 @@ Works on desktop and mobile.
 3. Paste this URL and confirm:
 
    ```
-   https://github.com/YOUR-USERNAME/YOUR-REPO
+   https://github.com/smolsn3k/st-lbnonrec
    ```
 
 4. Reload SillyTavern if it doesn't refresh on its own.
